@@ -1,0 +1,494 @@
+
+/*small phones*/
+@media screen and (max-width: 350px) and (orientation: portrait) {
+
+  .background-image {
+    background: url("../img/bg-mobile-small.png") no-repeat;
+    background-position: right bottom;
+  }
+
+  h6 {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.05rem;
+  }
+
+  .main-content-top-section h1 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+
+  .big-text-sub {
+    margin-top: 20px;
+  }
+
+  a.primary-btn,
+  a.secondary-btn {
+    font-size: 10px;
+  }
+
+  /*external links*/
+  .extra-links-container p {
+    font-size: 0.8rem;
+    font-weight: 900;
+  }
+  .extra-bottom-margin-30 {
+    margin-bottom: 10px;
+  }
+}
+
+/*long screen phons*/
+
+@media screen and (min-device-height: 675px) and (orientation: portrait) {
+
+  .background-image {
+    background: url("../img/bg-mobile-long.png") no-repeat;
+    background-position: right bottom;
+  }
+
+  .main-content-top-section h1 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  a.primary-btn,
+  a.secondary-btn,
+  button.primary-btn,
+  .button-secondary-btn {
+    font-size: 11px;
+  }
+
+  /*external links*/
+  .extra-links-container p {
+    font-size: 1rem;
+    font-weight: 900;
+    margin-top: 10px;
+  }
+  .extra-bottom-margin-30 {
+    margin-bottom: 30px;
+  }
+}
+
+/*Pixel XL*/
+@media screen and (min-height: 800px) and (orientation: portrait) {
+  .background-image {
+    background: url("../img/bg-iphone-plus.png") no-repeat;
+    background-position: right bottom;
+  }
+}
+
+/*iphone x*/
+
+@media screen and (device-width: 375px) and (device-height: 812px) {
+.background-image{
+  background: url('../img/bg-mobile-long.png') no-repeat;
+  background-position: right bottom;
+}
+}
+
+/*tablet*/
+
+@media screen and (min-width: 700px) and (orientation: portrait){
+
+  .logo img {
+    width: 130px; 
+  }
+
+  .hamburger-icon i {
+    font-size: 4rem;
+  }
+
+  .main-content-top-section h1, h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-top: 75px;
+  }
+
+  
+  .main-content-top-section h6 {
+    font-size: 1.7rem;
+    line-height: 3rem;
+    margin-bottom: 50px;
+  }
+
+  a.primary-btn,
+  a.secondary-btn, button.primary-btn {
+    font-size: 20px;
+    padding: 25px 30px ;
+  }
+
+  .background-image{
+    background: url('../img/bg-iphone-plus.png') no-repeat;
+    background-position: right bottom;
+  }
+  
+  .nav-item {
+    font-size: 2.2rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    letter-spacing: 0.1rem;
+  }
+
+  h2 {
+    font-size: 2.7rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 50px;
+  }
+
+  p{
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+    letter-spacing: 0.08rem;
+    margin-bottom: 30px;
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+
+  .about-nasa a.primary-btn{
+    margin-top: 50px;
+  }
+
+  .live-data-col {
+    padding-bottom: 50px;
+
+  }
+
+  .live-data-col img {
+    width: 170px;
+    height: auto;
+    margin-bottom: 75px;
+    margin-top: 75px;
+  }
+
+  .red{
+   margin-bottom: 50px;
+}
+
+.live-data p {
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+/*external links*/
+
+.breadcrumb{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.breadcrumb li{
+  font-size: 1.6rem;
+}
+
+.extra-links-container p{
+  font-size: 1.5rem ;
+}
+
+.extra-links-container a{
+  font-size: 1.5rem;
+}
+
+.accordion-btn{
+  font-size: 1.5rem;
+  padding:30px ;
+}
+
+.accordion-panel p{
+  font-size: 1.5rem;
+  line-height: 2.7rem;
+  letter-spacing: 0.08rem;
+}
+
+/*contact*/
+
+.top-contact input, .top-contact textarea, .form-error{
+  font-size: 1.5rem;
+  line-height: 2.7rem;
+}
+
+
+
+footer{
+  font-size: 1rem;
+}
+  
+}
+
+/*ipad pro*/
+@media screen and (min-width: 900px) and (orientation: portrait){
+
+  .section-inner {
+    padding-top: 100px;
+  }
+  
+  .background-image {
+    background: url("../img/bg-ipad-pro.png") no-repeat;
+    background-position: right bottom;
+  }
+  
+  .top {
+    padding-top: 100px;
+  }
+
+  .logo img {
+    width: 175px;
+  }
+  
+  .hamburger-icon i {
+    font-size: 5rem;
+  }
+
+  
+  .main-content-top-section h1, h1 {
+    font-size: 4.2rem;
+    line-height: 6rem;
+    margin-top: 150px;
+  }
+
+  
+  .main-content-top-section h6 {
+    font-size: 2.5rem;
+    line-height: 3.7rem;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  a.primary-btn,
+  a.secondary-btn, button.primary-btn {
+    font-size: 30px;
+    padding: 30px 35px ;
+  }
+
+  .nav-item {
+    font-size: 3rem;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    letter-spacing: 0.2rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 100px;
+  }
+
+  p{
+    font-size: 1.8rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 30px;
+  }
+
+  .about-nasa a.primary-btn{
+    margin-top: 75px;
+  }
+
+  h3{
+    font-size: 2.5rem;
+  }
+
+  .breadcrumb{
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .breadcrumb li{
+    font-size: 2rem;
+  }
+  
+  .extra-links-container p{
+    font-size: 1.8rem ;
+    margin-bottom: 20px;
+  }
+  
+  .extra-links-container a{
+    font-size: 1.8rem;
+   
+  }
+  
+  .accordion-btn{
+    font-size: 1.8rem;
+    padding:40px ;
+  }
+  
+  .accordion-panel p{
+    font-size: 1.8rem;
+    line-height: 3rem;
+    letter-spacing: 0.08rem;
+  }
+  
+  /*contact*/
+
+.top-contact input, .top-contact textarea, .form-error{
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  margin-top: 30px;
+}
+
+.contact-form h1{
+  margin-top: 50px;
+}
+
+.contact-form button.primary-btn{
+  margin-top: 50px;
+}
+
+.contact-footer{
+  margin-top: 150px;
+  font-size: 1.5rem;
+}
+
+
+}
+
+
+/*desktop*/
+
+@media screen and (min-width: 1200px) {
+
+  
+  .background-image {
+    background: url("../img/bg-desktop.png") no-repeat;
+    background-position: right bottom;
+  }
+
+  .hamburger-icon{
+    display: none;
+  }
+
+  .main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 100px;
+    height: auto;
+    position: relative;
+    z-index: 5;
+  }
+
+  .main-content-top-section{
+    width: 50%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+  }
+
+  
+  .main-content-top-section h1{
+     font-size: 3rem;
+     line-height: 3.5rem;
+     font-weight: 800;
+     font-family: 'Oswald', sans-serif;
+  }
+
+  .big-text-sub h6{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: 'Oswald', sans-serif;
+    color: #1e3141;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+ 
+ a.primary-btn,
+ a.secondary-btn, button.primary-btn {
+   font-size: 20px;
+   padding: 20px 40px ;
+ }
+
+ p{
+  font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 30px;
+}
+
+.about-nasa a.primary-btn{
+  margin-top: 50px;  
+}
+
+.live-data-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.live-data-col{
+ width: 30%;
+ border: 0;
+}
+
+.live-data-col p{
+  font-size: 1.3rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 30px;
+}
+
+h2{
+  font-size: 3rem;
+  margin-bottom: 100px;
+}
+
+h3{
+  font-size: 1.8rem;
+}
+
+.sub-header{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.breadcrumb{
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: transparent;
+}
+
+.breadcrumb li{
+  font-size: 1rem;
+}
+
+.timeline-container h2, .gallery-image-container h2, .top-contact h2{
+  margin-bottom: 0;
+}
+
+.gallery-container-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.gallery-row{
+  width: 50%;
+  margin-top: 0;
+}
+
+.gallery-col {
+  width: 30%;
+  padding: 5px;
+}
+
+.big-img-container{
+  width: 50%;
+  position: static;
+} 
+
+}
+

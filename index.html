@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NASA's microsite is an alternative source of information about NASA's space activity"
+    />
+    <meta
+      name="keywords"
+      content="NASA, space, iss, international space station, live feed, space images, nasa timeline, 
+      space information,  America's space agency, National Aeronautics and Space Administration, astronaut"
+    />
+    <meta name="author" content="Nejat Baranji" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/anim.css" />
+    <link rel="stylesheet" href="css/media-query.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/site-icon.png" />
+    <script
+      src="https://kit.fontawesome.com/29ae300af2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>NASA Microsite -Home</title>
+  </head>
+  <body>
+    <main class="page-container">
+      <div class="background-image">
+        <section class="top" id="top">
+          <header class="main-header">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo.gif" alt="logo" /></a>
+            </div>
+            <!--end logo div-->
+            <button class="hamburger-icon"><i class="fas fa-bars"></i></button>
+            <nav class="mobile-nav">
+              <ul>
+                <li>
+                  <a class="nav-item active-link" href="index.html">home</a>
+                </li>
+                <li><a class="nav-item" href="#aboutNasa">about nasa</a></li>
+                <li>
+                  <a class="nav-item" href="external-links.html"
+                    >external links</a
+                  >
+                </li>
+                <li><a class="nav-item" href="timeline.html">timeline</a></li>
+                <li><a class="nav-item" href="gallery.html">gallery</a></li>
+                <li><a class="nav-item" href="contact.html">contact</a></li>
+              </ul>
+            </nav>
+            <!--end mobile-nav-->
+
+            <nav class="main-nav">
+              <ul>
+                <li><a class="nav-item-desktop active-link" href="index.html">home</a></li>
+                <div class="dropdown">
+                  <button class="dropdown-btn">
+                    about <span class="arrow-down"></span>
+                  </button>
+                  <div class="dropdown-content">
+                    <li>
+                      <a class="nav-item-desktop dropdown-link" href="#aboutNasa"><i class="fas fa-arrow-right"></i> about nasa</a>
+                    </li>
+                    <li>
+                      <a class="nav-item-desktop dropdown-link" href="external-links.html"
+                        ><i class="fas fa-arrow-right"></i> external links</a
+                      >
+                    </li>
+                  </div>
+                </div>
+                <li><a class="nav-item-desktop" href="timeline.html">timeline</a></li>
+                <li><a class="nav-item-desktop" href="gallery.html">gallery</a></li>
+                <li><a class="nav-item-desktop" href="contact.html">contact</a></li>
+              </ul>
+            </nav>
+            <!--end main-nav-->
+          </header>
+          <section class="main-content-top-section">
+            <div class="big-text">
+              <h1>
+                NASA'S MISSION:<br /><span class="blue-text"
+                  >EXPLORING UNIVERSE!</span
+                >
+              </h1>
+            </div>
+            <div class="big-text-sub">
+              <h6>WORKING EVERY DAY TO EDUCATE POEPLE BEHIND IMAGINATION</h6>
+            </div>
+            <div class="btn-group">
+              <a class="primary-btn" href="#liveData"><i class="fas fa-satellite-dish"></i> LIVE DATA</a>
+              <a class="secondary-btn" href="contact.html"><i class="fas fa-arrow-right"></i> CONTACT</a>
+            </div>
+          </section>
+        </section>
+        <!--end top section-->
+      </div>
+      <!--end backround-image div-->
+        <section class="about-nasa" id="aboutNasa">
+         <div class="section-inner">
+          <h2>About NASA</h2>
+          <p>
+            <b>The National Aeronautics and Space Administration</b> (NASA) is
+            an independent agency of the United States Federal Government
+            responsible for the civilian space program, as well as aeronautics
+            and space research.
+          </p>
+          <p>
+            NASA was established in 1958, succeeding the National Advisory
+            Committee for Aeronautics (NACA). The new agency was to have a
+            distinctly civilian orientation, encouraging peaceful applications
+            in space science.[8][9][10] Since its establishment, most US space
+            exploration efforts have been led by NASA, including the Apollo Moon
+            landing missions, the Skylab space station, and later the Space
+            Shuttle.
+            <a class="p-link" href="https://en.wikipedia.org/wiki/NASA"
+              >Source: Wikipedia</a
+            >
+          </p>
+          <div class="center extra-bottom-margin"><a class="primary-btn" href="external-links.html">External links</a></div>
+          <hr>
+         </div>
+        </section>
+        <!--end about-nasa section-->
+        <section class="nasa-twitter">
+         <div class="section-inner">
+          <a
+          class="twitter-timeline"
+          href="https://twitter.com/nasa"
+          data-tweet-limit="1"
+        >
+          Tweets by @twittername</a
+        >
+        <script
+          async
+          src="//platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+         </div>
+
+        </section>
+        <!--end nasa-twitter section-->
+        <section class="live-data" id="liveData">
+        <div class="section-inner">
+          <h2 class="light-blue"><i class="fas fa-satellite-dish"></i> Live Data</h2>
+          <div class="live-data-row">
+            <div class="live-data-col">
+              <img src="img/space-station.png" alt="space station">
+              <h3 class="red">ISS Current Location</h3>
+              <p class="white" id="ISSCurrentLocation">
+                <div class="spinner"></div>
+              </p>
+            </div><!--end live-data-col-->
+
+            <div class="live-data-col">
+              <img src="img/pass-time.png" alt="iss pass-time">
+              <h3 class="red">ISS Pass Times</h3>
+              <p class="white" id="ISSPassTimes">
+                <div class="spinner"></div>
+              </p>
+            </div><!--end live-data-col-->
+
+            <div class="live-data-col">
+              <img src="img/astronaut.png" alt="astronaut">
+              <h3 class="red">People In Space</h3>
+              <p class="white" id="PeopleInSpace">
+                <div class="spinner"></div>
+              </p>
+            </div><!--end live-data-col-->
+
+          </div><!--end live-data-row-->
+        </div>
+        </section>
+        <!--end live-data section-->
+        <section class="image-of-the-day">
+          <div class="section-inner">
+            <h2 class="light-blue">IMAGE  OF THE DAY</h2>
+          <div id="imageOfTheDay" class="image-container">
+            <div class="spinner"></div>
+          </div>
+          <div class="center">
+            <a class="primary-btn" href="gallery.html">See more images</a>
+          </div>
+          </div>
+          <footer class="main-footer">
+            <p>NASA MICROSITE - &copy;COPYRIGHT 2020</p>
+          </footer>
+        </section>
+    </main>
+    <!--end page-container-->
+    <script src="js/main.js"></script>
+    <script src="js/liveData.js"></script>
+  </body>
+</html>

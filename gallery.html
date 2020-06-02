@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="NASA's microsite is an alternative source of information about NASA's space activity"
+    />
+    <meta
+      name="keywords"
+      content="Image gallery, space, iss, international space station, live feed, space images, nasa timeline, 
+      space information,  America's space agency, National Aeronautics and Space Administration, astronaut"
+    />
+    <meta name="author" content="Nejat Baranji" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/anim.css" />
+    <link rel="stylesheet" href="css/media-query.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/site-icon.png" />
+    <script
+      src="https://kit.fontawesome.com/29ae300af2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>NASA Microsite - Gallery</title>
+  </head>
+
+  <body>
+    <main class="page-container">
+      <section class="top-gallery">
+        <header class="main-header">
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.gif" alt="logo" /></a>
+          </div>
+          <!--end logo div-->
+          <button class="hamburger-icon"><i class="fas fa-bars"></i></button>
+          <nav class="mobile-nav">
+            <ul>
+              <li>
+                <a class="nav-item" href="index.html">home</a>
+              </li>
+              <li>
+                <a class="nav-item" href="index.html#aboutNasa">about nasa</a>
+              </li>
+              <li>
+                <a class="nav-item" href="external-links.html"
+                  >external links</a
+                >
+              </li>
+              <li><a class="nav-item" href="timeline.html">timeline</a></li>
+              <li>
+                <a class="nav-item active-link" href="gallery.html">gallery</a>
+              </li>
+              <li>
+                <a class="nav-item" href="contact.html">contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!--end mobile-nav-->
+          <nav class="main-nav">
+            <ul>
+              <li><a class="nav-item-desktop" href="index.html">home</a></li>
+              <div class="dropdown">
+                <button class="dropdown-btn">
+                  about <span class="arrow-down"></span>
+                </button>
+                <div class="dropdown-content">
+                  <li>
+                    <a class="nav-item-desktop dropdown-link" href="index.html#aboutNasa"><i class="fas fa-arrow-right"></i> about nasa</a>
+                  </li>
+                  <li>
+                    <a class="nav-item-desktop dropdown-link" href="external-links.html"
+                      ><i class="fas fa-arrow-right"></i> external links</a
+                    >
+                  </li>
+                </div>
+              </div>
+              <li><a class="nav-item-desktop" href="timeline.html">timeline</a></li>
+              <li><a class="nav-item-desktop active-link" href="gallery.html">gallery</a></li>
+              <li><a class="nav-item-desktop" href="contact.html">contact</a></li>
+            </ul>
+          </nav>
+          <!--end main-nav-->
+        </header>
+
+        <div class="gallery-image-container">
+          <div class="sub-header">
+          <h2>Gallery</h2>
+          <ul class="breadcrumb">
+            <li>
+              <a href="index.html"><i class="fas fa-home"></i> Home /</a>
+            </li>
+            <li>gallery</li>
+          </ul>
+        </div><!--end sub-header-->
+          <div class="gallery-container-inner">
+          <div class="gallery-row">
+            <div class="gallery-col">
+              <img
+                class="thumbnail"
+                src="img/gallery/Adelaide.jpg"
+                alt="The bright lights of Adelaide, the capital of South Australia"
+              />
+            </div>
+
+            <div class="gallery-col">
+              <img
+                class="thumbnail"
+                src="img/gallery/Chris-Cassidy.jpg"
+                alt="Chris Cassidy cleans botany research hardware"
+              />
+            </div>
+
+            <div class="gallery-col">
+              <img
+                class="thumbnail"
+                src="img/gallery/Earth-horizon.jpg"
+                alt="The wispy atmospheric layer of the air glow crowns the Earth's horizon"
+              />
+            </div>
+
+            <div class="gallery-col">
+              <img
+                class="thumbnail"
+                src="img/gallery/Persian-Gulf.jpg"
+                alt="City lights on the Persian Gulf"
+              />
+            </div>
+
+            <div class="gallery-col">
+              <img
+                class="thumbnail"
+                src="img/gallery/The well lit Red Sea coast of Saudi Arabia.jpg"
+                alt="The well lit Red Sea coast of Saudi Arabia"
+              />
+            </div>
+
+            <div class="gallery-col">
+              <img
+                class="thumbnail"
+                src="img/gallery/The official Expedition 63 crew portrait.jpg"
+                alt="The official Expedition 63 crew portrai"
+              />
+            </div>
+
+            <div class="gallery-col">
+              <img
+                class="thumbnail"
+                src="img/gallery/Chris Cassidy sets up pulmonary function hardware.jpg"
+                alt="Chris Cassidy sets up pulmonary function hardware"
+              />
+            </div>
+
+            <div class="gallery-col">
+              <img
+                class="thumbnail"
+                src="img/gallery/An Otherworldly-Looking Bombetoka Bay, Madagascar.jpg"
+                alt="An Otherworldly-Looking Bombetoka Bay, Madagascar"
+              />
+            </div>
+          </div>
+          <!--end gallery-row-->
+          <div class="big-img-container">
+            <span class="exit-icon"></span>
+            <img
+              class="big-img"
+              src="img/gallery/Adelaide.jpg"
+              alt="The bright lights of Adelaide, the capital of South Australia"
+            />
+            <p class="img-text"></p>
+          </div><!--end big-ing-container-->
+        </div> <!--end gallery-container-inner-->
+        </div>
+      </section>
+      <!--end top section-->
+      <footer class="gallery-footer">NASA MICROSITE - ©COPYRIGHT 2020</footer>
+    </main>
+    <!--end page-container-->
+    <script src="js/gallery.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
